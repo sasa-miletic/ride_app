@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyRideActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center_horizontal"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="2dp"
+            android:text="Speed: "
+            android:textSize="27sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.0 "
+            android:layout_marginTop="20dp"
+            android:textSize="32sp"
+            android:id="@+id/speedTv"
+            android:textColor="@color/black"
+            android:background="#CBC9CF"
+            android:fontFamily="@font/digital"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="2dp"
+            android:text="Km/h"
+            android:textSize="27sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="2dp"
+            android:text="Top speed: "
+            android:textSize="27sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.0"
+            android:layout_marginTop="20dp"
+            android:textSize="32sp"
+            android:id="@+id/topSpeedTv"
+            android:textColor="@color/black"
+            android:background="#CBC9CF"
+            android:fontFamily="@font/digital"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="2dp"
+            android:text="Km/h"
+            android:textSize="27sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="2dp"
+            android:text="Distance: "
+            android:textSize="27sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.0"
+            android:layout_marginTop="20dp"
+            android:textSize="32sp"
+            android:id="@+id/distanceTv"
+            android:textColor="@color/black"
+            android:background="#CBC9CF"
+            android:fontFamily="@font/digital"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="2dp"
+            android:text="Km"
+            android:textSize="27sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="2dp"
+            android:text="Time: "
+            android:textSize="27sp" />
+
+        <Chronometer
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="32sp"
+            android:id="@+id/chronometer"
+            android:textColor="@color/black"
+            android:background="#CBC9CF"
+            android:fontFamily="@font/digital"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/showMap"
+            android:text="go to map"
+            android:layout_marginRight="10dp"
+            android:background="#BCB7B7"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/startBtn"
+            android:text="start"
+            android:layout_marginRight="10dp"
+            android:background="#F44545"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="finish"
+            android:id="@+id/finishBtn"
+            android:background="#470202"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/saveBtn"
+        android:text="save stats"
+        android:background="#7FBFF3"
+        android:layout_marginRight="45dp"
+        android:layout_marginLeft="46dp"/>
+
+
+</LinearLayout>

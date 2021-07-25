@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">RideApp</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="google_map_api_key">AIzaSyCy0vUeLLbZuUJCZ3Pc7CbEBS2uxM2RDbo</string>
+    <string name="title_activity_maps2">Map</string>
+
+</resources>
